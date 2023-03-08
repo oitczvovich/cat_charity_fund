@@ -13,10 +13,10 @@ PROJECT_HAVE_MONYE = 'В проект были внесены средства, 
 
 
 class Settings(BaseSettings):
-    # app_title: str
+    app_title: str = 'Кошачий благотворительный фонд'
     database_url: str = 'sqlite+aiosqlite:///./fastapi.db'
     secret: str = 'SECRET'
-    # description: str
+    description: str = 'Сервис для поддержки котиков!'
     first_superuser_email: Optional[EmailStr] = None
     first_superuser_password: Optional[str] = None
 
