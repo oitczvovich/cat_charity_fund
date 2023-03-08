@@ -32,7 +32,7 @@ async def get_all_donations(
     response_model=DonationUserDB,
     response_model_exclude_none=True,
     response_model_exclude={
-       "user_id", "invested_amount", "fully_invested",
+        "user_id", "invested_amount", "fully_invested",
     }
 )
 async def create_donation(
