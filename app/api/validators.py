@@ -14,6 +14,7 @@ from app.core.config import (
     PROJECT_HAVE_MONYE,
 )
 
+
 async def check_charity_project_exists(
     charity_project_id: int,
     session: AsyncSession,
