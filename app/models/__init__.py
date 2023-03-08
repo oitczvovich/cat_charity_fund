@@ -1,4 +1,4 @@
-from .charity_project import CharityProject
-from .donation import Donation
-from .user import User
-from .base import FinanceBase
+from .charity_project import CharityProject # noqa
+from .donation import Donation # noqa
+from .user import User # noqa
+from .base import FinanceBase # noqa

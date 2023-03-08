@@ -1,5 +1,3 @@
-from typing import Optional
-
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -21,5 +19,6 @@ class CRUDDonation(CRUDBase):
             )
         )
         return db_donation.scalars().all()
+
 
 donation_crud = CRUDDonation(Donation)
