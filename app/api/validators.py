@@ -46,7 +46,6 @@ async def check_name_duplicate(
 
 
 def check_close_project(obj):
-    print(obj)
     if obj.fully_invested:
         raise HTTPException(
             status_code=HTTPStatus.BAD_REQUEST,
